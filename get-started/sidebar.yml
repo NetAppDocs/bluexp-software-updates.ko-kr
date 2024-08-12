@@ -1,0 +1,14 @@
+---
+section: get-started
+title: ONTAP 업데이트를 시작하십시오
+entries:
+- title: ONTAP 업데이트에 대해 알아봅니다
+  url: "/get-started/software-updates.html"
+- title: 필수 구성 요소
+  url: "/get-started/prerequisites-ontap-update.html"
+- title: 빠른 시작
+  url: "/get-started/quick-start-ontap-update.html"
+- title: BlueXP  소프트웨어 업데이트에 액세스합니다
+  url: "/get-started/login-software-updates.html"
+- title: FAQ 를 참조하십시오
+  url: "/get-started/software-updates-faq.html"

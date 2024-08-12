@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: ONTAP/fix-blockers-warnings.html 
+keywords: fix ontap blockers and warnings, ontap update precheck, acknowledge warnings 
+summary: ONTAP 차단기를 수정하고 ONTAP 업데이트를 완료할 수 없는 경고를 확인합니다. 
+---
+= ONTAP 차단기를 수정하고 인정합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ONTAP 스토리지 시스템의 ONTAP 대상 버전을 식별한 후에는 모든 차단기를 수정 및 확인하고 ONTAP 스토리지 시스템을 업데이트하기 전에 경고를 검토해야 합니다.
+
+모든 차단제를 수정하고 승인하는 것은 필수적이며 원활한 소프트웨어 업데이트 프로세스를 보장합니다.
+
+.단계
+. BlueXP  왼쪽 탐색 모음에서 * 상태 > 소프트웨어 업데이트 * 를 선택합니다.
++
+소프트웨어 업데이트가 필요한 클러스터의 목록이 표시됩니다.
+
+. 스토리지 시스템의 ONTAP 대상 버전을 확인합니다. ONTAP 대상 버전 식별에 대한 자세한 내용은 을 link:../ONTAP/choose-ontap-910-later.html["ONTAP 대상 버전 9.10 이상을 선택합니다"]참조하십시오.
+. ONTAP 대상 버전을 결정한 후 * 업데이트 준비 * 를 클릭하여 업데이트 프로세스를 시작합니다.
++
+차단 및 경고 목록이 표시됩니다.
+
+. 차단기를 선택하여 차단기를 수정하는 지침을 봅니다.
+. 차단기를 해결하기 위해 제공된 단계를 수동으로 수행합니다.
+. 수정된 차단제를 선택하고 * 선택 확인 * 을 클릭하여 차단제가 해결되었음을 확인합니다.
+
+
+
+NOTE: 업데이트를 진행하려면 모든 차단기를 수정하고 확인해야 합니다.
+
+. 소프트웨어 업데이트를 진행하기 전에 경고를 검토하려면 * 경고 * 탭을 클릭하십시오.
+. 수정한 차단제를 보려면 * Acknowledge * 탭을 클릭하십시오.
+. 업데이트 프로세스를 진행하려면 * 계속 * 을 클릭하십시오.
+

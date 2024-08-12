@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: get-started/software-updates-faq.html 
+keywords: ontap update faq, ontap update frequently asked questions, software updates faq, software updates frequently asked questions 
+summary: BlueXP  소프트웨어 업데이트에 대한 질문과 대답을 봅니다. 
+---
+= BlueXP  소프트웨어 업데이트에 대한 FAQ(자주 묻는 질문
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움이 될 수 있습니다.
+
+* BlueXP  소프트웨어 업데이트 URL은 무엇입니까? *
+
+URL의 경우 브라우저에 다음을 입력하여 BlueXP  콘솔에 액세스합니다. https://console.bluexp.netapp.com/["https://console.bluexp.netapp.com/"^]
+
+* BlueXP  소프트웨어 업데이트를 사용하려면 라이선스가 필요합니까? *
+
+NetApp 라이센스 파일(NLF)은 필요하지 않습니다.
+
+* 클러스터의 ONTAP 버전을 업데이트한 후에도 기록 탭에서 클러스터를 볼 수 없는 이유는 무엇입니까? *
+
+클러스터가 기록 탭에 나타나는 데 2~3시간이 걸립니다. 클러스터의 ONTAP 버전이 업데이트되면 AutoSupport가 생성됩니다. AutoSupport 데이터를 처리하고 최신 버전의 ONTAP를 반영하는 데 2~3시간이 걸립니다.
+
+* 클러스터의 ONTAP 버전을 업데이트한 후에도 소프트웨어 업데이트 대시보드에 이전 버전의 ONTAP가 표시되는 이유는 무엇입니까? *
+
+클러스터가 기록 탭에 나타나는 데 2~3시간이 걸립니다. 클러스터의 ONTAP 버전이 업데이트되면 AutoSupport가 생성됩니다. AutoSupport 데이터를 처리하고 최신 버전의 ONTAP를 반영하는 데 2~3시간이 걸립니다.
+
+* 다른 업데이트에 대해 다른 화면이 표시되는 이유는 무엇입니까? *
+
+이는 현재 ONTAP 버전과 클러스터용 BlueXP  커넥터를 사용할 수 없기 때문입니다. BlueXP  커넥터는 BlueXP  내에서 ONTAP 업데이트를 수행하므로 업데이트를 위해 BlueXP 에서 이동할 필요가 없습니다. 다른 버전의 ONTAP에 대한 ONTAP 업데이트 프로세스에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/bluexp-software-updates/get-started/software-updates.html["지원되는 ONTAP 시스템"].
+
+* 클러스터를 검색하려면 무엇이 필요합니까? *
+
+원하는 클러스터에 대해 ONTAP 업데이트를 수행하려면 클러스터에 연결할 수 있는 ONTAP 클러스터 IP 및 admin 자격 증명이 필요합니다. 클러스터 검색 중에 ONTAP 업데이트를 자동으로 실행할 수 있도록 이러한 세부 정보를 제공해야 합니다.

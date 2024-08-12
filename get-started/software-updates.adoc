@@ -1,0 +1,64 @@
+---
+sidebar: sidebar 
+permalink: get-started/software-updates.html 
+keywords: ontap 9.10, ontap update, supported systems for ontap update, ontap version, software updates benefits 
+summary: 소프트웨어 업데이트를 통해 ONTAP 스토리지 시스템을 원활하게 업데이트하여 새로운 기능과 향상된 기능을 BlueXP  활용하십시오. 
+---
+= BlueXP  소프트웨어 업데이트에 대해 알아봅니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+BlueXP  소프트웨어 업데이트를 사용하여 ONTAP 스토리지 시스템을 업데이트하여 새로운 기능과 향상된 기능을 활용할 수 있습니다. 따라서 비용을 절감하고, 중요한 워크로드를 가속하며, 보안을 강화할 수 있습니다.
+
+BlueXP  소프트웨어 업데이트 서비스는 고객이 ONTAP 업데이트를 간소화할 수 있도록 지원합니다. 평가, 계획 및 실행 프로세스를 자동화합니다. 지능형 업그레이드 관리자는 특정 환경에 가장 적합한 버전을 예측하여 문제를 해결하고 효율성을 향상시키며 시스템 보안을 강화하는 버전을 추천함으로써 고객이 자신의 요구 사항에 가장 적합한 옵션을 결정할 수 있도록 합니다. 그런 다음 소프트웨어 패키지를 배포하고 지원 서비스에 관계없이 자동 비배포 업그레이드(ANDU)를 자동으로 실행합니다.
+
+
+
+== 지원되는 시스템
+
+
+
+=== ONTAP 시스템
+
+ONTAP 9.10 이상 버전에서 실행 중인 경우에만 BlueXP  소프트웨어 업데이트 서비스를 사용하여 ONTAP 업데이트를 완료할 수 있습니다.
+
+다음 정보는 여러 ONTAP 버전에 대한 소프트웨어 업데이트 프로세스를 제공합니다.
+
+|===
+| * 현재 ONTAP 버전 * | * 업데이트 프로세스 * 
+
+
+| 9.12 이상 | ONTAP 업데이트의 모든 단계는 BlueXP  내에서 수행됩니다. 
+
+
+| 9.10 - 9.12 | ONTAP 업데이트 준비는 BlueXP  소프트웨어 업데이트 화면에서 수행됩니다. 실제 ONTAP 업데이트를 수행할 수 있도록 System Manager로 이동합니다. BlueXP  내에서 ONTAP 업데이트의 모든 단계를 실행하려면 다음이 link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["커넥터를 설정합니다"]필요합니다. 
+
+
+| 9.8 - 9.10 | ONTAP 업데이트 준비는 BlueXP  소프트웨어 업데이트 화면에서 수행됩니다. 실제 ONTAP 업데이트를 수행할 수 있도록 System Manager로 이동합니다. 
+
+
+| 9.7 이하 | 이 클러스터에는 자동화된 ONTAP 업데이트가 지원되지 않습니다. ONTAP를 수동으로 업데이트해야 합니다. 자세한 내용은 을 link:https://docs.netapp.com/us-en/ontap/upgrade/index.html["스토리지 시스템을 수동으로 업데이트합니다"]참조하십시오. 
+|===
+
+
+== BlueXP  소프트웨어 업데이트 사용의 이점
+
+ONTAP 스토리지 시스템을 업데이트하면 스토리지 시스템의 성능, 보안 및 기능을 개선할 수 있습니다.
+
+ONTAP 스토리지 시스템을 업데이트하면 다음과 같은 이점이 있습니다.
+
+* 새로운 프로토콜, 데이터 서비스, 클라우드 통합 옵션 등 ONTAP이 제공하는 최신 기능과 개선사항에 액세스할 수 있습니다.
+* 시스템 안정성, 안정성 또는 보안에 영향을 줄 수 있는 버그나 취약점을 해결할 수 있습니다.
+* 최신 패치 및 개선 사항을 적용하여 시스템 성능 및 효율성을 최적화할 수 있습니다.
+* 다른 NetApp 제품, 타사 애플리케이션 및 클라우드 공급자와의 호환성 및 상호 운용성을 보장할 수 있습니다.
+* NetApp이 최신 ONTAP OS 버전에 대해 제공하는 지속적인 지원 및 유지 관리를 활용할 수 있습니다.
+
+
+
+
+== 비용
+
+NetApp은 서비스 사용에 대한 비용을 부과하지 않습니다.

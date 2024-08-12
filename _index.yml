@@ -1,0 +1,37 @@
+---
+indexpage:
+  title: BlueXP  소프트웨어 업데이트 설명서
+  keywords: software updates, update ONTAP, upgrade ONTAP, ONTAP version, ONTAP 9.8
+  lead: BlueXP  소프트웨어 업데이트 서비스는 고객이 ONTAP 업데이트를 간소화할 수 있도록 지원합니다. 평가, 계획 및 실행 프로세스를
+    자동화합니다.
+  tiles:
+  - title: 시작하십시오
+    links:
+    - title: BlueXP  소프트웨어 업데이트에 대해 알아봅니다
+      url: "/get-started/software-updates.html"
+    - title: BlueXP  소프트웨어 업데이트의 새로운 기능
+      url: "/release-notes/whats-new.html"
+    - title: 빠른 시작
+      url: "/get-started/quick-start-ontap-update.html"
+    - title: 필수 구성 요소
+      url: "/get-started/prerequisites-ontap-update.html"
+    - title: BlueXP  소프트웨어 업데이트에 로그인합니다
+      url: "/get-started/login-software-updates.html"
+    - title: FAQ 를 참조하십시오
+      url: "/get-started/software-updates-faq.html"
+  - title: BlueXP의 경제적 효율성을 활용합니다
+    links:
+    - title: ONTAP 대상 버전 9.10 이상을 선택합니다
+      url: "/ONTAP/choose-ontap-910-later.html"
+    - title: ONTAP 차단기를 수정하고 인정합니다
+      url: "/ONTAP/fix-blockers-warnings.html"
+    - title: ONTAP 스토리지 시스템 업데이트를 완료합니다
+      url: "/ONTAP/update-storage-system.html"
+    - title: ONTAP 스토리지 시스템 업데이트 상태를 확인합니다
+      url: "/ONTAP/validate-storage-system-update.html"
+  - title: 블로그 및 커뮤니티
+    links:
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: 클라우드 웨비나
+      url: https://bluexp.netapp.com/events

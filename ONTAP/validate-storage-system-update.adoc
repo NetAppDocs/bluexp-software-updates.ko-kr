@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: ONTAP/validate-storage-system-update.html 
+keywords: validate status of ontap update, track status of ontap update 
+summary: ONTAP 업데이트 상태를 확인하여 수행해야 할 다음 단계를 결정합니다. 
+---
+= ONTAP 스토리지 시스템 업데이트 상태를 확인합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ONTAP 업데이트 프로세스가 완료되면 ONTAP 업데이트 상태를 확인해야 합니다.
+
+.단계
+. BlueXP  왼쪽 탐색 모음에서 * 상태 > 소프트웨어 업데이트 * 를 선택합니다.
+. ONTAP 업데이트 상태를 보려면 * 기록 * 탭을 클릭하십시오.
+
+
+
+NOTE: 클러스터가 기록 탭에 반영되려면 2~3시간이 걸립니다.
