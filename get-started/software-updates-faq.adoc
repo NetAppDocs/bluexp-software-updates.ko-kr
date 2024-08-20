@@ -31,7 +31,7 @@ NetApp 라이센스 파일(NLF)은 필요하지 않습니다.
 
 * 다른 업데이트에 대해 다른 화면이 표시되는 이유는 무엇입니까? *
 
-이는 현재 ONTAP 버전과 클러스터용 BlueXP  커넥터를 사용할 수 없기 때문입니다. BlueXP  커넥터는 BlueXP  내에서 ONTAP 업데이트를 수행하므로 업데이트를 위해 BlueXP 에서 이동할 필요가 없습니다. 다른 버전의 ONTAP에 대한 ONTAP 업데이트 프로세스에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/bluexp-software-updates/get-started/software-updates.html["지원되는 ONTAP 시스템"].
+이는 현재 ONTAP 버전과 클러스터용 BlueXP  커넥터를 사용할 수 없기 때문입니다. BlueXP  커넥터는 BlueXP  내에서 ONTAP 업데이트를 수행하므로 업데이트를 위해 BlueXP 에서 이동할 필요가 없습니다. BlueXP  커넥터가 없는 경우 System Manager로 리디렉션되고 ONTAP 클러스터 자격 증명을 다시 입력해야 합니다. 다른 버전의 ONTAP에 대한 ONTAP 업데이트 프로세스에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/bluexp-software-updates/get-started/software-updates.html["지원되는 ONTAP 시스템"].
 
 * 클러스터를 검색하려면 무엇이 필요합니까? *
 

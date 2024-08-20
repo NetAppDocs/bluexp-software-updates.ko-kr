@@ -100,7 +100,6 @@
   <block id="fb1a576523e6d98a2637113b1f2ddc77" category="paragraph">* 클러스터의 ONTAP 버전을 업데이트한 후에도 소프트웨어 업데이트 대시보드에 이전 버전의 ONTAP가 표시되는 이유는 무엇입니까? *</block>
   <block id="cd7a9b3aab856990de5540e448854d37" category="paragraph">* 다른 업데이트에 대해 다른 화면이 표시되는 이유는 무엇입니까? *</block>
   <block id="696fbf3ecd0e89c737f9c5b7adddfb8e" category="inline-link-macro">지원되는 ONTAP 시스템</block>
-  <block id="9acf8bc64d0336944e98a10c4b868c28" category="paragraph">이는 현재 ONTAP 버전과 클러스터용 BlueXP  커넥터를 사용할 수 없기 때문입니다. BlueXP  커넥터는 BlueXP  내에서 ONTAP 업데이트를 수행하므로 업데이트를 위해 BlueXP 에서 이동할 필요가 없습니다. 다른 버전의 ONTAP에 대한 ONTAP 업데이트 프로세스에 대한 자세한 내용은 을 참조하십시오 <block ref="9368a1ed7fc94ef1fa0dd54dc646113b" category="inline-link-macro-rx"></block>.</block>
   <block id="301053661b8bcb5b62150d8c97038d47" category="paragraph">* 클러스터를 검색하려면 무엇이 필요합니까? *</block>
   <block id="78a404dc6fcc27f5f6c067b96fa1a926" category="paragraph">원하는 클러스터에 대해 ONTAP 업데이트를 수행하려면 클러스터에 연결할 수 있는 ONTAP 클러스터 IP 및 admin 자격 증명이 필요합니다. 클러스터 검색 중에 ONTAP 업데이트를 자동으로 실행할 수 있도록 이러한 세부 정보를 제공해야 합니다.</block>
   <block id="eae99a51790faa39ba0454fb4f00a5b8" category="summary">소프트웨어 업데이트를 통해 ONTAP 스토리지 시스템을 원활하게 업데이트하여 새로운 기능과 향상된 기능을 BlueXP  활용하십시오.</block>
@@ -337,4 +336,5 @@
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식 및 지원</block>
+  <block id="e9286f8f31c5b4b57dc1c4b27396c2bf" category="paragraph">이는 현재 ONTAP 버전과 클러스터용 BlueXP  커넥터를 사용할 수 없기 때문입니다. BlueXP  커넥터는 BlueXP  내에서 ONTAP 업데이트를 수행하므로 업데이트를 위해 BlueXP 에서 이동할 필요가 없습니다. BlueXP  커넥터가 없는 경우 System Manager로 리디렉션되고 ONTAP 클러스터 자격 증명을 다시 입력해야 합니다. 다른 버전의 ONTAP에 대한 ONTAP 업데이트 프로세스에 대한 자세한 내용은 을 참조하십시오 <block ref="9368a1ed7fc94ef1fa0dd54dc646113b" category="inline-link-macro-rx"></block>.</block>
 </blocks>
