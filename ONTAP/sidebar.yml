@@ -2,11 +2,11 @@
 section: ontap
 title: BlueXP  소프트웨어 업데이트를 사용합니다
 entries:
-- title: ONTAP 대상 버전을 선택합니다
+- title: ONTAP 버전을 비교하여 업데이트의 장점과 위험을 이해합니다
   url: "/ONTAP/choose-ontap-910-later.html"
 - title: ONTAP 차단기를 수정하고 경고를 확인합니다
   url: "/ONTAP/fix-blockers-warnings.html"
-- title: ONTAP 스토리지 시스템 업데이트를 완료합니다
+- title: ONTAP 스토리지 시스템 업데이트를 시작합니다
   url: "/ONTAP/update-storage-system.html"
 - title: ONTAP 스토리지 시스템 업데이트 상태를 확인합니다
   url: "/ONTAP/validate-storage-system-update.html"

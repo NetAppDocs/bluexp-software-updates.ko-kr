@@ -2,7 +2,6 @@
 <blocks>
   <block id="f6f16bb8e1efb9727b0dcf9a90373ffb" category="summary">ONTAP 스토리지 시스템을 업그레이드하기 전에 각 ONTAP 버전이 제공하는 이점과 위험에 대해 알아보십시오.</block>
   <block id="3e01b70f098c97a8e8c6a729636b23d4" category="doc">ONTAP 대상 버전 9.10 이상을 선택합니다</block>
-  <block id="b1a7397c6fa96ca3e42a2fb189b81d51" category="paragraph">스토리지 시스템에 사용할 ONTAP 버전을 선택하기 전에 먼저 이점을 파악하고 ONTAP 대상 버전과 관련된 위험을 이해하는 것이 중요합니다.</block>
   <block id="0634e55ef28524df4ddd4c1ddfd72bdd" category="paragraph">대상 버전을 선택하고 현재 버전과 비교하여 ONTAP에서 특정 버전으로 업데이트할 때의 이점을 이해할 수 있습니다. 또한 특정 버전의 ONTAP로 업데이트할 때 발생할 수 있는 위험 및 새로운 위험(있는 경우)도 확인할 수 있습니다.</block>
   <block id="74083ab8069d07080edb25320474b13b" category="admonition">ONTAP 9.10 이상 버전을 실행하는 경우에만 이 기능을 사용할 수 있습니다.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
@@ -24,7 +23,6 @@
   <block id="7d73325ccb71b4870e81c3c8734ba56e" category="paragraph">ONTAP 스토리지 시스템의 ONTAP 대상 버전을 식별한 후에는 모든 차단기를 수정 및 확인하고 ONTAP 스토리지 시스템을 업데이트하기 전에 경고를 검토해야 합니다.</block>
   <block id="2458f462c36fbeec4b6536099135f298" category="paragraph">모든 차단제를 수정하고 승인하는 것은 필수적이며 원활한 소프트웨어 업데이트 프로세스를 보장합니다.</block>
   <block id="a710a4a4b33a19ce9678b290e8622101" category="paragraph">소프트웨어 업데이트가 필요한 클러스터의 목록이 표시됩니다.</block>
-  <block id="e11cab9533afda7fed240f31c60b96f3" category="list-text">스토리지 시스템의 ONTAP 대상 버전을 확인합니다. ONTAP 대상 버전 식별에 대한 자세한 내용은 을 <block ref="538e53c5274334201439b22929ae7c33" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="06cd15ffbdad395f54961af4b4da3f7d" category="list-text">ONTAP 대상 버전을 결정한 후 * 업데이트 준비 * 를 클릭하여 업데이트 프로세스를 시작합니다.</block>
   <block id="921328cf9f5d7f1029ee8f2b5eb6add6" category="paragraph">차단 및 경고 목록이 표시됩니다.</block>
   <block id="0d3e45ea704fa7abdf905562392b0203" category="list-text">차단기를 선택하여 차단기를 수정하는 지침을 봅니다.</block>
@@ -36,29 +34,22 @@
   <block id="5143d195cc41390e0e4722e37a8b670d" category="list-text">업데이트 프로세스를 진행하려면 * 계속 * 을 클릭하십시오.</block>
   <block id="0fd40a88a795a27afa35dc3e7dbce97c" category="summary">새롭고 개선된 기능을 활용하려면 ONTAP 스토리지 시스템을 업데이트하십시오.</block>
   <block id="ef54c6082f1b8fb3ea432a9b7cdce377" category="doc">ONTAP 스토리지 시스템 업데이트를 완료합니다</block>
-  <block id="4069d368e6b24c7032f0eedc33a1601d" category="paragraph">ONTAP 대상 버전을 식별하고 모든 차단기를 수정 및 확인했으면 이제 ONTAP 스토리지 시스템의 업데이트를 완료할 수 있습니다.</block>
-  <block id="5095c7afe8ce77fcc7b92f22c350fe82" category="list-text">ONTAP 차단기를 수정하고 확인합니다. 차단제 수정에 대한 자세한 내용은 을 <block ref="d61905fe2b2d7d79294414b81cd336cb" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="84159d0a25239d2d4573172d023c46e7" category="list-text">최종 사용자 사용권 계약을 읽고 동의합니다.</block>
   <block id="7e6935bb4ba08bd2b040fec7140cefe8" category="paragraph">ONTAP 이미지가 검색될 때까지 기다립니다.</block>
   <block id="b707a048aebf6a3d5685827572cc3de1" category="list-text">업데이트 프로세스를 완료하려면 * 업데이트 설치 * 를 클릭합니다.</block>
   <block id="2086b43ba817368b623c8b845f4a2c86" category="summary">ONTAP 업데이트 상태를 확인하여 수행해야 할 다음 단계를 결정합니다.</block>
   <block id="2cffa96ea0fb9d5b545b8cc40a61d4a3" category="doc">ONTAP 스토리지 시스템 업데이트 상태를 확인합니다</block>
-  <block id="7735ef900b37ebdc5493537c82501786" category="paragraph">ONTAP 업데이트 프로세스가 완료되면 ONTAP 업데이트 상태를 확인해야 합니다.</block>
   <block id="82eb3f6374cb74069e9ac86a78c4c7b7" category="list-text">ONTAP 업데이트 상태를 보려면 * 기록 * 탭을 클릭하십시오.</block>
   <block id="0ca4b31fab05c7c65ce3168c99116299" category="admonition">클러스터가 기록 탭에 반영되려면 2~3시간이 걸립니다.</block>
   <block id="f01ff61f665dc565b36723f4f7ba7acb" category="summary">로그인하여 BlueXP  소프트웨어 업데이트 서비스에 액세스합니다.</block>
   <block id="620719f65d1fb1b1420157fab1aa5208" category="doc">BlueXP  소프트웨어 업데이트에 액세스합니다</block>
-  <block id="1686b410540845de1f8283165293bd1a" category="paragraph">NetApp BlueXP 에 로그인하여 BlueXP  소프트웨어 업데이트를 사용할 수 있습니다.</block>
   <block id="8e917942a77709dfd28c155f42a97553" category="inline-link-macro">로그인에 대해 자세히 알아보십시오</block>
-  <block id="315c997f74955c2a02119a24a36df47e" category="paragraph">BlueXP에 로그인하려면 NetApp Support 사이트 자격 증명을 사용하거나 이메일 및 암호를 사용하여 NetApp 클라우드 로그인에 등록할 수 있습니다. <block ref="b81c2771e4fb9546e28e2b4e920d2ca5" category="inline-link-macro-rx"></block>..</block>
   <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXP 콘솔</block>
   <block id="5d97159a9457a24e7a43d040b2d4b33f" category="list-text">웹 브라우저를 열고 로 이동합니다 <block ref="046fd603b18837f482287e5ec741e5ed" category="inline-link-macro-rx"></block>.</block>
   <block id="753e3c2055278365db83b605f29d4860" category="paragraph">NetApp BlueXP 로그인 페이지가 나타납니다.</block>
   <block id="ad84736d27b7f84414783598f4ffd0d9" category="list-text">BlueXP에 로그인합니다.</block>
   <block id="24958f1bc0c9e80abac7daea72c06854" category="list-text">BlueXP  왼쪽 탐색 모음에서 * 상태 &gt; 소프트웨어 업데이트 * 를 선택합니다</block>
   <block id="20b41c007263bf3cb834352319595be6" category="summary">ONTAP 업데이트를 진행하기 전에 사전 요구사항 및 요구사항을 검토하십시오.</block>
-  <block id="c68f0236667091f737bdf862786b96a8" category="doc">BlueXP  소프트웨어 업데이트를 사용하여 ONTAP를 업데이트하기 위한 전제 조건</block>
-  <block id="84804abf3404a430e85ae3299587a6b0" category="paragraph">운영 환경, 로그인, 네트워크 액세스 및 웹 브라우저의 준비 상태를 확인하여 시작하십시오.</block>
   <block id="7efc4f28b854970100677afdf18e3743" category="paragraph">BlueXP  소프트웨어 업데이트를 사용하려면 환경이 모든 요구 사항을 충족하는지 확인해야 합니다.</block>
   <block id="f79a5712ad4df34137efe352ad13262f" category="list-text">Administrator Privileges는 System Manager를 사용하여 소프트웨어 업데이트를 수행할 수 있습니다.</block>
   <block id="0a97d1300ce9361165541c64b6bd10b7" category="list-text">소프트웨어 업데이트를 수행하는 동안 원하는 클러스터에 대해 관리자 자격 증명을 사용할 수 있습니다.</block>
@@ -67,7 +58,6 @@
   <block id="8cb2d0d931dcf081c2e6cdb9235d0efa" category="list-text">노드는 MetroCluster 구성에 있어서는 안 됩니다.</block>
   <block id="2dc7ae12158353c62d51898b1414574d" category="summary">ONTAP 스토리지 시스템을 원활하고 빠르게 업데이트합니다.</block>
   <block id="53e01f87a36e506053f9d6c3a230df29" category="doc">BlueXP  소프트웨어 업데이트를 사용하여 ONTAP 업데이트를 빠르게 시작합니다</block>
-  <block id="573c9d215bcc8c1dc02e08dfd5d679ec" category="paragraph">다음은 BlueXP  소프트웨어 업데이트를 시작하는 데 필요한 단계에 대한 개요입니다. 각 단계의 링크를 클릭하면 자세한 내용을 제공하는 페이지로 이동합니다.</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1개</block>
   <block id="a2d56436fc6737079209e6c74380c5fb" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 사전 요구 사항을 검토하십시오</block>
   <block id="d73fd850784e1d8dbda69ab3ca51e7cf" category="inline-link-macro">환경이 이러한 요구 사항을 충족하는지 확인합니다</block>
@@ -87,7 +77,6 @@
   <block id="20d07d8fbe66f0a93aa19234a6281583" category="paragraph"><block ref="64ffd4ac1c7206890e581f7b5a3f2be9" category="inline-link-macro-rx"></block>..</block>
   <block id="b272f27e62779943682f53ea50ac3fd5" category="summary">BlueXP  소프트웨어 업데이트에 대한 질문과 대답을 봅니다.</block>
   <block id="9f908c51aaf72b8fdb723584bba658d1" category="doc">BlueXP  소프트웨어 업데이트에 대한 FAQ(자주 묻는 질문</block>
-  <block id="b1151aae9531d2f5e85d085e8878cea6" category="paragraph">이 FAQ는 질문에 대한 간단한 답변을 찾는 경우에 도움이 될 수 있습니다.</block>
   <block id="e56ded8fd48409401c6fff468729d8a6" category="paragraph">* BlueXP  소프트웨어 업데이트 URL은 무엇입니까? *</block>
   <block id="942a771213d3b59ba27960f61d97b1ac" category="inline-link"><block ref="942a771213d3b59ba27960f61d97b1ac" category="inline-link-rx"></block></block>
   <block id="97196dcbb301c06780e3699ce570a095" category="paragraph">URL의 경우 브라우저에 다음을 입력하여 BlueXP  콘솔에 액세스합니다.<block ref="6db7b50bf17b27cbede9f07c4fbc973e" category="inline-link-rx"></block></block>
@@ -102,8 +91,6 @@
   <block id="78a404dc6fcc27f5f6c067b96fa1a926" category="paragraph">원하는 클러스터에 대해 ONTAP 업데이트를 수행하려면 클러스터에 연결할 수 있는 ONTAP 클러스터 IP 및 admin 자격 증명이 필요합니다. 클러스터 검색 중에 ONTAP 업데이트를 자동으로 실행할 수 있도록 이러한 세부 정보를 제공해야 합니다.</block>
   <block id="eae99a51790faa39ba0454fb4f00a5b8" category="summary">소프트웨어 업데이트를 통해 ONTAP 스토리지 시스템을 원활하게 업데이트하여 새로운 기능과 향상된 기능을 BlueXP  활용하십시오.</block>
   <block id="4a4ca306c87f7718653f5a8ebca8584c" category="doc">BlueXP  소프트웨어 업데이트에 대해 알아봅니다</block>
-  <block id="4baad46ac6519d24a604d0592262d3a2" category="paragraph">BlueXP  소프트웨어 업데이트를 사용하여 ONTAP 스토리지 시스템을 업데이트하여 새로운 기능과 향상된 기능을 활용할 수 있습니다. 따라서 비용을 절감하고, 중요한 워크로드를 가속하며, 보안을 강화할 수 있습니다.</block>
-  <block id="140dd9258bb13766fefc6da02514ad8e" category="paragraph">BlueXP  소프트웨어 업데이트 서비스는 고객이 ONTAP 업데이트를 간소화할 수 있도록 지원합니다. 평가, 계획 및 실행 프로세스를 자동화합니다. 지능형 업그레이드 관리자는 특정 환경에 가장 적합한 버전을 예측하여 문제를 해결하고 효율성을 향상시키며 시스템 보안을 강화하는 버전을 추천함으로써 고객이 자신의 요구 사항에 가장 적합한 옵션을 결정할 수 있도록 합니다. 그런 다음 소프트웨어 패키지를 배포하고 지원 서비스에 관계없이 자동 비배포 업그레이드(ANDU)를 자동으로 실행합니다.</block>
   <block id="933247e0be7796a309cfa4c95bd34938" category="section-title">지원되는 시스템</block>
   <block id="1a326a008d82e9276c86382d2622dbc4" category="section-title">ONTAP 시스템</block>
   <block id="ce2747e858185215705d6b23a84eab2b" category="paragraph">ONTAP 9.10 이상 버전에서 실행 중인 경우에만 BlueXP  소프트웨어 업데이트 서비스를 사용하여 ONTAP 업데이트를 완료할 수 있습니다.</block>
@@ -315,10 +302,7 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="bd10fd9cd73654d01bc6a7719a4f03c3" category="sidebar">BlueXP  소프트웨어가 문서를 업데이트합니다</block>
   <block id="2b973f41c5b1f5465e41113e137d7a93" category="sidebar">BlueXP  소프트웨어 업데이트를 사용합니다</block>
-  <block id="c875e3d623333d854efa96be52543e6c" category="sidebar">ONTAP 대상 버전을 선택합니다</block>
   <block id="49ec4b514e47d3aeca96090e2282a2b0" category="sidebar">ONTAP 차단기를 수정하고 경고를 확인합니다</block>
-  <block id="043756462732d85786f9ee8ff131baeb" category="sidebar">ONTAP 업데이트를 시작하십시오</block>
-  <block id="cfa9378dd942a8238f797353b6dd5400" category="sidebar">ONTAP 업데이트에 대해 알아봅니다</block>
   <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">FAQ 를 참조하십시오</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
@@ -337,4 +321,24 @@
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSS 자격 증명을 BlueXP  조직과 연결하는 것은 BlueXP  사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP  조직 ID와 연결됩니다. BlueXP  조직에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
   <block id="cf3625b0846a5497dd36ab2220da602a" category="paragraph">에 대해 자세히 <block ref="4ef0c81e219f07a508ae115770245e4e" category="inline-link-macro-rx"></block>알아보십시오.</block>
+  <block id="dd1f3e550c5e2f4725c15954d3d7ea2d" category="doc">ONTAP 버전을 비교하여 BlueXP  소프트웨어 업데이트를 통한 이점과 위험을 이해합니다</block>
+  <block id="49d68f82813e1841cdc24205608d8fe2" category="paragraph">스토리지 시스템의 ONTAP 버전을 업데이트하기 전에 ONTAP 타겟 버전과 관련된 이점과 위험을 비교 및 이해하는 것이 매우 중요합니다.</block>
+  <block id="5555018124c02b21b3aaeedcef61f4fa" category="doc">ONTAP 업그레이드 전에 BlueXP  소프트웨어 업데이트를 사용하여 모든 차단기를 수정합니다</block>
+  <block id="db4b6d19a8d4d57e24b5828d0074143e" category="list-text">스토리지 시스템의 ONTAP 대상 버전을 확인합니다. ONTAP 대상 버전 식별에 대한 자세한 내용은 을 <block ref="0f2a258e8994f78c1b1f17d43a16c513" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="396bf64c6d994d797cb5742c6758418b" category="doc">BlueXP  소프트웨어 업데이트를 사용하여 ONTAP 업데이트를 시작합니다</block>
+  <block id="0ae470cfcd6da9622bf1c34549a18b77" category="paragraph">ONTAP 대상 버전을 식별하고 모든 차단기를 수정 및 확인했으면 이제 ONTAP 스토리지 시스템의 업데이트를 시작할 수 있습니다.</block>
+  <block id="a4c20aefa4aa78b722a006d3390ac1cb" category="list-text">ONTAP 차단기를 수정하고 확인합니다. 차단제 수정에 대한 자세한 내용은 을 <block ref="6440b0843592ebb60c718c0b07809cb1" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="5efd3bb225c7267020da770434ce3d85" category="paragraph">BlueXP  소프트웨어 업데이트를 사용하여 ONTAP 업데이트 상태를 확인할 수 있습니다.</block>
+  <block id="937f4d5a34565b48f88d86bac89c78f6" category="doc">BlueXP  소프트웨어 업데이트에 액세스하여 ONTAP를 업데이트합니다</block>
+  <block id="6c269860f7beec4d28cbb4c480aec401" category="paragraph">BlueXP  소프트웨어 업데이트에 액세스하려면 BlueXP 에 로그인해야 합니다.</block>
+  <block id="257d03ea2eed4050a6e348b424d61c43" category="paragraph">로그인하려면 NetApp 지원 사이트 자격 증명을 사용하거나 이메일 및 암호를 사용하여 NetApp 클라우드 로그인에 등록할 수 있습니다. <block ref="b81c2771e4fb9546e28e2b4e920d2ca5" category="inline-link-macro-rx"></block>..</block>
+  <block id="61f62682b36d6aec10d0e3fdf7b80a02" category="doc">BlueXP  소프트웨어 업데이트를 사용하여 ONTAP 업데이트를 준비합니다</block>
+  <block id="ceef21d867cd560c99b829957ac7c4ef" category="paragraph">ONTAP 업데이트를 진행하기 전에 사전 요구 사항 및 요구 사항을 검토해야 합니다. BlueXP  소프트웨어 업데이트를 사용하여 운영 환경, 로그인, 네트워크 액세스, 웹 브라우저의 준비 상태를 확인할 수 있습니다.</block>
+  <block id="b9055b7fdf4830bba7903d1ea2d1fec7" category="paragraph">다음은 BlueXP  소프트웨어 업데이트를 빠르게 시작하는 데 필요한 단계에 대한 개요입니다. 각 단계의 링크를 클릭하면 자세한 내용을 제공하는 페이지로 이동합니다.</block>
+  <block id="69f33badbace6451069f5a11aff02d64" category="paragraph">BlueXP  소프트웨어 업데이트에 대해 자세히 알고 싶거나 문제 해결에 도움이 필요한 경우 다음 질문을 검토하여 빠른 답변을 얻을 수 있습니다.</block>
+  <block id="630082988db3654341e1bbfe1473ff34" category="paragraph">BlueXP  소프트웨어 업데이트 서비스를 사용하면 고객이 ONTAP 업데이트를 간소화할 수 있습니다. 따라서 비용을 절감하고, 중요한 워크로드를 가속하며, 보안을 강화할 수 있습니다.</block>
+  <block id="4bab70d11b4cca2a35de48f534070ddc" category="paragraph">BlueXP  소프트웨어 업데이트 서비스는 평가, 계획 및 실행 프로세스를 자동화합니다. 지능형 업그레이드 관리자는 특정 환경에 가장 적합한 버전을 예측하여 문제를 해결하고 효율성을 향상시키며 시스템 보안을 강화하는 버전을 추천함으로써 고객이 자신의 요구 사항에 가장 적합한 옵션을 결정할 수 있도록 합니다. 그런 다음 소프트웨어 패키지를 배포하고 지원 서비스에 관계없이 자동 비배포 업그레이드(ANDU)를 자동으로 실행합니다.</block>
+  <block id="dcfbeb8f1660c404fb401cb23dc4a928" category="sidebar">ONTAP 버전을 비교하여 업데이트의 장점과 위험을 이해합니다</block>
+  <block id="4b826e35792ea987dc5df57d49d94c3e" category="sidebar">ONTAP 스토리지 시스템 업데이트를 시작합니다</block>
+  <block id="c979f283726214fd17da9716a48f78f0" category="sidebar">BlueXP  소프트웨어 업데이트를 시작하십시오</block>
 </blocks>
