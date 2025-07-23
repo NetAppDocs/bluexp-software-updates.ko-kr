@@ -13,6 +13,9 @@ summary: 새롭고 개선된 기능을 활용하려면 ONTAP 스토리지 시스
 [role="lead"]
 ONTAP 대상 버전을 식별하고 모든 차단기를 수정 및 확인했으면 이제 ONTAP 스토리지 시스템의 업데이트를 시작할 수 있습니다.
 
+.필요한 BlueXP 역할:
+조직 관리자, 폴더 또는 프로젝트 관리자, 저장소 관리자 또는 시스템 상태 전문가. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP 액세스 역할에 대해 알아보세요."^]
+
 .단계
 . BlueXP  왼쪽 탐색 모음에서 * 상태 > 소프트웨어 업데이트 * 를 선택합니다.
 +
